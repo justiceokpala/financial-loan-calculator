@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+.importantnotice{
+    background-color: antiquewhite;
+}
+
+.red{
+    color: rgb(255, 7, 57);
+}
+
+
+.ul1{
+   list-style-type: none;
+
+
+}
+
+.orange{
+    background-color: rgb(226, 68, 10);
+}
+
+.ul1 li{
+    padding: 10px;
+    float: left;
+}
+
+a{
+    color: white;
+}
+
+.financial{
+    background-color: rgb(228, 222, 207);
+}
+
+.gt{
+    width:2px !important;
+    height: 50px;
+    background-color: rgb(226, 68, 10);
+}
+
+.white{
+    color: white;
+}
+
+.margin{
+    margin-top: 10px;
+}
+
+.brown{
+    background-color: rgb(226, 68, 10);
+}
+.ul2{
+    list-style-type: none;
+ 
+}
+
+.grey{
+    background-color: rgb(228, 222, 207);  
+}

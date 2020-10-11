@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Financial calculator</title>
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="row">
+        <div class="col-md-12  importantnotice ">
+           <p class="red mt-4 ml-4" ><b>important notice: </b></p> 
+
+            <p class="ml-4">Please be mindful of fake sites run by fraudulent parties posing as GTBank or its affiliates. Do not disclose your personal information and <br> financial details to anyone online or anywhere else.</p>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid">
+        <div class="row orange">
+            <ul class="ul1">
+            <li><a href="">locate</a></li>
+           <li><a href=""> media</a></li>
+           <li> <a href=""> health center</a></li>
+           <li> <a href=""> security</a></li>
+           <li> <a href=""> online banking login</a></li>
+           </ul>
+            
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 mt-4 mb-4">Personal Banking</div>
+            <div class="col-md-2 mt-4 mb-4">Business Banking</div>
+            <div class="col-md-2 mt-4 mb-4">About GTBank</div>
+            <div class="col-md-2 mt-4 mb-4">Investor Relation</div>
+            <div class="col-md-2 mt-4 mb-4"></div>
+            <div class="col-md-2 mt-4 mb-4 gt"><h4 class="white text-center margin">GTBank </h4>Guaranty trust bank</div>
+        </div>
+        
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 financial mb-4">
+               <p class="ml-4 mt-4">Home > financial calculator</p> 
+                <h1 class="mt-4 mb-4 ml-4">Financial calculator</h1>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+       <p class="ml-4">loan calculator</p> 
+        <form name="loandata">
+            <table class="ml-4 ">
+              <tr><td colspan="3"><b>Enter Loan Information:</b></td></tr>
+              <tr>
+                <td>1)</td>
+                <td>Amount of the loan (any currency):</td>
+                <td><input type="text" name="principal" size="12" 
+                           onchange="calculate();"></td>
+              </tr>
+              <tr>
+                <td>2)</td>
+                <td>Annual percentage rate of interest:</td>
+                <td><input type="text" name="interest" size="12" 
+                           onchange="calculate();"></td>
+              </tr>
+              <tr>
+                <td>3)</td>
+                <td>Repayment period in years:</td>
+                <td><input type="text" name="years" size="12" 
+                           onchange="calculate();"></td>
+              </tr>
+              <tr><td colspan="3">
+                <input type="button" value="Compute" onclick="calculate();">
+              </td></tr>
+              <tr><td colspan="3">
+                <b>Payment Information:</b>
+              </td></tr>
+              <tr>
+                <td>4)</td>
+                <td>Your monthly payment will be:</td>
+                <td><input type="text" name="payments" size="12"></td>
+              </tr>
+              <tr>
+                <td>5)</td>
+                <td>Your total payment will be:</td>
+                <td><input type="text" name="total" size="12"></td>
+              </tr>
+              <tr>
+                <td>6)</td>
+                <td>Your total interest payments will be:</td>
+                <td><input type="text" name="totalinterest" size="12"></td>
+              </tr>
+            </table>
+          </form>
+    </section>
+    <section class="container-fluid mt-4  grey">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 ">
+                <ul class="ul2 mt-4 mb-4">
+                    <li><b>Personal banking</b></li>
+                    <li>savings account</li>
+                    <li>current account</li>
+                    <li>compare account</li>
+                    <li>cards</li>
+                    <li>non resident nigerian service (nrn)</li>
+                    <li>loans</li>
+                    <li>ways to bank</li>
+                    <li>private banking</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="ul2 mt-4 mb-4">
+                    <li><b>Business banking</b></li>
+                    <li>Gtb account</li>
+                    <li>cards</li>
+                    <li>e-banking services</li>
+                    <li>commercial banking</li>
+                    <li>coperate banking</li>
+                    <li>loans</li>
+                    <li>ways to bank</li>
+                    <li>private banking</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="ul2 mt-4 mb-4">
+                    <li><b>About GTbank</b></li>
+                    <li>our company</li>
+                    <li>careers</li>
+                    <li>comperate social responsibility</li>
+                    <li>investor relations</li>
+                    <li>contact us</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="ul2 mt-4 mb-4">
+                    <li><b>Help and security</b></li>
+                    <li>account reaactivation</li>
+                    <li>complaints and enquiries</li>
+                    <li>customer feeback and survey</li>
+                    <li>dispense errors</li>
+                    <li>help videos</li>
+                    <li>self-service</li>
+                    <li>security center</li>
+                    <li>whistle blowers</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="ul2 mt-4 mb-4">
+                    <li><b>Quick links</b></li>
+                    <li>find a branch/atm</li>
+                    <li>all your banking forms in one place</li>
+                    <li>bvn linking portals</li>
+                    <li>financial calculators</li>
+                    <li>iRefer</li>
+                    <li>media center</li>
+                    <li>internal links</li>
+                    <li>video banking</li>
+                    <li>open an account</li>
+                </ul>
+            </div>
+
+            <div class="col-md-1"></div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 brown mb-4">
+               <p class="white ml-4"> We take your privacy seriously and only process your personal information to make your banking experience better. In accordance with NDPR, GDPR and other<br> applicable regulations, continuing to use this platform indicates your consent to the processing of your personal data by Guaranty Trust Bank Plc., its subsidiaries and <br> partners as detailed in our </p>
+            </div>
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
